@@ -1,0 +1,21 @@
+@import "abstracts/variables";
+
+button {
+  color: map-get($white-hues, 400);
+  border: 2px solid transparent;
+  border-radius: 100px;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: map-get($white-hues, 400);
+  }
+  &:disabled {
+    background-color: map-get($black-shades, 301);
+    color: map-get($black-shades, 302);
+    &:hover {
+      background-color: map-get($black-shades, 301);
+      color: map-get($black-shades, 302);
+    }
+  }
+}

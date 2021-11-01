@@ -1,0 +1,9 @@
+@import "components/buttons";
+
+button {
+  background-color: blue;
+  &:hover {
+    color: blue;
+    border: 1px solid blue;
+  }
+}

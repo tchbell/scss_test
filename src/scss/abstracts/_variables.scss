@@ -1,0 +1,47 @@
+$colors: (
+  gold: #d1a337,
+  light-blue: #4fc6db,
+  negative: #fc3c47,
+  warning: #ffac07,
+  positive: #2cbb76,
+  gradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%),
+);
+
+$campaign-colors: (
+  blue-600: #194644,
+  blue-601: #417896,
+  blue-602: #3d5d70,
+  blue-603: rgba(25, 70, 100, 0.6),
+  green-700: rgb(65, 125, 100),
+  green-701: #5faa82,
+  green-702: #6f9183,
+  green-703: rgba(65, 125, 100, 0.6),
+  violet-800: #7378af,
+  violet-801: #aaafeb,
+  violet-802: #abb0d8,
+  violet-803: rgba(115, 120, 175, 0.6),
+  orange-900: #e66450,
+  orange-901: #ff8c78,
+  orange-902: #fd9786,
+  orange-903: rgba(230, 100, 80, 0.6),
+  red-1000: #87324b,
+  red-1001: #b9465a,
+  red-1002: #a35864,
+  red-1003: rgba(135, 50, 75, 0.6),
+);
+
+$black-shades: (
+  300: #000000,
+  301: #3a3a3a,
+  302: #ababab,
+  303: #eaeaea,
+  304: #f8f8f8,
+);
+
+$white-hues: (
+  400: #ffffff,
+  401: rgba(255, 255, 255, 0.8),
+  402: rgba(255, 255, 255, 0.6),
+  403: rgba(255, 255, 255, 0.3),
+  404: rgba(255, 255, 255, 0.15),
+);
